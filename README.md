@@ -32,3 +32,5 @@ pip install django
 - django 프로젝트 실행 확인 python manage.py runserver 
 로켓 나오면 정상 
 
+- app 하나 만들기 
+django-admin startapp posts 
