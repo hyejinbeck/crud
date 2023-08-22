@@ -28,3 +28,7 @@ pip install django
 - 그리고 git commit -m 'django-admin startproject' 
 
 `tip` : 틈틈히 commit 할때 어떤 걸 구현했는지 추가 기재해줄 것 
+
+- django 프로젝트 실행 확인 python manage.py runserver 
+로켓 나오면 정상 
+
