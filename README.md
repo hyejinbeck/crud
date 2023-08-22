@@ -33,4 +33,20 @@ pip install django
 로켓 나오면 정상 
 
 - app 하나 만들기 
-django-admin startapp posts 
+django-admin startapp posts
+
+- urls에 추가 
+from 폴더명 import views
+그리고 밑에 urlpatterns 에 추가 
+path('index/', views.index)
+index를 요청하면 index파일을 보여줘라는 내용 
+
+- views index파일 요청시, 보여줄 내용 기재 
+def index(request): .. 
+
+- posts폴더에 templates 폴더 생성후, index.html 파일 만들기 
+
+- 만들어진 index.html 에 ! 누르고  tab 눌러 셋팅 
+- 그리고 보여줄 내용 기재 
+
+- 다 저장한 뒤, 로켓트가 나온 django 웹 본 뒤 /index 눌러 잘 실행되는지 확인 
